@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Tela de login</title>
+    </head>
+    <body>
+        <main>
+            <div id="container">
+                <form class="login-form">
+                    <h1>Cadastrar</h1>
+                    <div class="inputlist">
+                        <div class="name">
+                            <label for="name"> Nome </label>
+                            <div class="formname">
+                                <i class="fa-regular fa-user"></i>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="input-name"
+                                    placeholder="Username"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <div class="formname">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="input-email"
+                                    placeholder="Email"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="email">
+                            <label for="senha">Senha</label>
+                            <div class="formname">
+                                <i class="fa-solid fa-lock"></i>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    id="input-pass"
+                                    placeholder="Password"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

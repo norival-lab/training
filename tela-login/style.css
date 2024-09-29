@@ -7,7 +7,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 #container{
     width: 100%;
     height: 100vh;
@@ -36,13 +35,10 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 7px;
-    
 }
 
 .inputlist label{
-    
     font-size: 13px;
-    
 }
 
 .formname{
@@ -53,25 +49,22 @@ h1{
     border-radius: 15px;
     padding: 4px;
 }
+
 .formname i{
     padding-left: 5px;
     color: #FE6953;
 }
+
 .inputlist input{
     width: 200px;
     padding: 5px;
     border: none;
     border-radius: 10px;
     font-size: 10px;
-    
-    
 }
 .inputlist input:focus{
-    
     outline: 0;
-    
 }
-
 
 button{
     padding: 6px;
